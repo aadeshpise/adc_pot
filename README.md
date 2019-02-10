@@ -9,8 +9,8 @@ void
 ADCClockConfigSet(uint32_t ui32Base,uint32_t ui32Config,uint32_t)
 
 Parameters:
-ui32Base is the base address of the ADC to configure, which must always be ADC0_BASE.
-ui32Config is a combination of the ADC_CLOCK_SRC_ and ADC_CLOCK_RATE_∗ values
+/n ui32Base is the base address of the ADC to configure, which must always be ADC0_BASE.
+/n ui32Config is a combination of the ADC_CLOCK_SRC_ and ADC_CLOCK_RATE_∗ values
 used to configure the ADC clock input.
 ui32ClockDiv is the input clock divider for the clock selected by the ADC_CLOCK_SRC value.
 
